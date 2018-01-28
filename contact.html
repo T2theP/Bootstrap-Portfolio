@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta charset="UTF-8">
+  <title>Bootstrap Portfolio</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header  -->
+    <div class="header">
+		<div class="container">	
+			<div class="title"><h2>Tom Payne</h2></div>
+			<div class="nav-bar">
+				<a href="index.html" class="current">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+	</div>
+    <!-- Body  -->
+    <div class="container site-body">
+		<!-- Main Content  -->
+		<div class="main-content body-item">
+			<h1>Contact</h1>
+			<div class="main-content-page-break"></div>
+           <hr>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputName">Name</label> <input class="form-control" id="exampleInputName" placeholder="John Smith" type="text">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail">Email</label> <input class="form-control" id="exampleInputEmail" placeholder="example@gmail.com" type="email">
+            </div>
+            <div class="form-group">
+              <label for="exampleTextarea">Message</label> 
+              <textarea class="form-control" id="exampleTextarea" rows="8"></textarea>
+            </div><button class="btn btn-success" type="submit">Submit</button>
+          </form>
+        </div><!-- card-body -->
+      </div><!-- card col-lg-8 -->
+      <div class="col-lg-3 p-0 mt-4">
+        <!-- card height fix -->
+        <div class="card p-0">
+          <div class="card-header">
+            Connect with me
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-4 p-1">
+                <a class="fa-stack fa-2x mx-auto d-block" href="https://github.com/T2theP" target="_blank"><i class="fa fa-square fa-stack-2x btn-outline-dark"></i> <i class="fa fa-github fa-stack-1x fa-inverse"></i></a>
+              </div>
+              <div class="col-4 p-1">
+                <a class="fa-stack fa-2x mx-auto d-block" href="https://www.linkedin.com/in/tom-payne-16623a156" target="_blank"><i class="fa fa-square fa-stack-2x btn-outline-dark"></i> <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i></a>
+              </div>
+              <div class="col-4 p-1">
+                <a class="fa-stack fa-2x mx-auto d-block" href="https://stackoverflow.com/users/9161878/tom-payne" target="_blank"><i class="fa fa-square fa-stack-2x btn-outline-dark"></i> <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></a>
+              </div>
+            </div><!-- /row -->
+          </div><!-- card-body -->
+        </div><!-- card -->
+      </div><!-- col-lg-3 -->
+    </div><!-- /row justify-content-between -->
+  </div><!-- container -->
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">&copy;Copyright 2018 Tom Payne</span>
+    </div>
+  </footer>
+</body>
+</html>
